@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"/>
+	<title>calendar</title>
+<!--	<script src="./js/jquery.js"></script>
+	<script src="./js/jquery161.js"></script> -->
+	<script src="./js/jquery-2.1.1.js"></script>
+	<script src="./js/jqueryui/jquery-ui.js"></script>
+	<script src="./js/date.js"></script>
+	<script>
+		// $(function() {
+		// 	var daySelected = '';
+		// 	$(function() {
+		// 		$(".date-link").click({ds:daySelected}, function(event) {
+		// 		//	alert($(this).attr("date"));
+		// 			$(this).toggleClass('td-selected');
+		// 		});
+		// 	});
+		// });
+	</script>
+	<link rel="stylesheet" href="./css/date.css">
+</head>
+<body>
+	<div id="page">
+		<div id="header"></div>
+		<div id="body">
+			<div id="position-table">
+				<div id="table-head-position">
+					<div id="table-head">
+						<div id="table-head-year">
+							<select name="year-select" id="year-select"></select>
+						</div>
+						<div id="table-head-month">
+							<select name="month-select" id="month-select"></select>
+						</div>
+					</div>
+				</div>
+				<div id="table">
+					<table id="cal-table">
+						<thead>
+							<tr class="week">
+								<td id="sunday" class="week-title">周日</td>
+								<td id="monday" class="week-title">周一</td>
+								<td id="tuesday" class="week-title">周二</td>
+								<td id="wednesday" class="week-title">周三</td>
+								<td id="thursday" class="week-title">周四</td>
+								<td id="friday" class="week-title">周五</td>
+								<td id="satday" class="week-title">周六</td>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div id="user-name">
+				<input type="text" id="user" length="30" placeholder="Input Your Name" required>
+			</div>
+			<div id="party_done">
+				<button id="done">done</button>
+			</div>		
+		</div>
+		<div id="footer">
+			<!-- <a href="javascript:;" class="test-click">I am test</a> -->
+			
+		</div>
+	</div>
+</body>
+</html>

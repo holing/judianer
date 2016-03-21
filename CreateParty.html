@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+	<title>聚点儿</title>
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+<!-- 可选的Bootstrap主题文件（一般不用引入） -->
+	<link rel="stylesheet" href="http://cdn.bootcss.com/bootstrap/3.3.4/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" type="text/css" href="./css/font_style.css">
+	<script src="./js/jquery161.js"></script>
+	<script src="./js/CreateParty.js"></script>	
+	<!--<link rel="stylesheet" href="./css/CreateParty.css">-->
+	<style type="text/css">
+		.title,.navbar-brand{
+			font-size: 16px;
+		}
+		.title{
+			line-height: 50px;
+		}
+		nav{
+			background-color: #51C3A9;
+			color: white;
+		}
+		.subtitle{
+			line-height: 26px;
+			height:26px;
+		}
+		#submit{
+			background-color: #51C3A9;
+			color: white;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+	<!-- jQuery文件。务必在bootstrap.min.js 之前引入 -->
+<script src="http://cdn.bootcss.com/jquery/1.11.2/jquery.min.js"></script>
+
+<!-- 最新的 Bootstrap 核心 JavaScript 文件 -->
+<script src="http://cdn.bootcss.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<!--<div style="position:absolute; left:0; top:0; width:100%; height:100%;" align="center">
+		 <img src="./pic/logo.png" width=100% height=100%> 
+	</div> -->
+	<nav class="navbar navbar-fixed-top">
+		<div class="col-xs-4" style="padding-left:0">
+		<a id="back" class="navbar-brand" onclick="back()" style="color:white;"><span class="glyphicon glyphicon-menu-left" aria-hidden="true"></span>返回</a>
+		</div>
+		<div class="col-xs-4 text-center title">创建聚会</div> 
+	</nav>
+
+	<div class="list-group" style="margin-top:50px">
+		<div class="list-group-item">
+				<div class="row">
+					<div class="col-xs-4 text-right subtitle" style="padding-right:0">主题：</div>
+					<div class="col-xs-4 text-right" style="padding-left:0"><input type="text" id="partyName" name="partyName" maxlength="20" placeholder="聚会名称"></div>
+				</div>				
+		</div>
+		<div class="list-group-item" >
+				<div class="row">
+					<div class="col-xs-4 text-right subtitle" style="padding-right:0">地点：</div>
+					<div class="col-xs-4 text-right" style="padding-left:0"><input type="text" id="partyAddr" name="partyAddr" maxlength="40" placeholder="聚会地点"></div>
+				</div>	
+		</div>
+				<div class="list-group-item" >
+				<div class="row">
+					<div class="col-xs-4 text-right subtitle" style="padding-right:0">主办人：</div>
+					<div class="col-xs-4 text-right" style="padding-left:0"><input type="text" id="partyHost" name="partyHost" maxlength="20" placeholder="主办人姓名"></div>
+				</div>	
+		</div>
+	</div>
+
+	<div class="container">
+		<button class="btn btn-block" id="submit">确认生成邀请</button>
+	</div>
+	<!--
+	<div style="position:absolute; left:0; top:0; width:100%; text-align:center">
+		<div id="clock">
+			<h1 style="color:#000;">创建聚会:</h1>
+				<form action="" id="tj">
+					<input type="text" id="partyName" name="parthName" maxlength="20" placeholder="聚会名称"/>
+					<input type="text" id="partyAddr" name="partyAddr" maxlength="40" placeholder="聚会地点"/><br>
+					<!-- <span><a href="">添加一个地点</a></span><br> -->
+					<!-- <input type="text" id="name" name="username" maxlength="5" placeholder="姓名"/>
+					<input type="text" id="address" name="address" maxlength="2" placeholder="宿舍楼号"/> -->
+				<!--	<input type="button" value="完成" id="submit"/>
+				</form>
+			</div>
+		</div>
+	</div> 
+	<div id="footer" style="position:absolute;left:0; bottom:3%; width:100%; text-align:center">
+		<span style="font-size:10px; color:#000;">@聚点儿</span>
+	</div>
+</div>-->
+<script type="text/javascript">
+	function back(){
+		history.back();
+		// body...
+	}
+</script>
+</body>
+</html>

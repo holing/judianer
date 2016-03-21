@@ -1,0 +1,18 @@
+body{
+	background-color: #FFFFF0;
+}
+
+#body{
+	width: 100%;
+}
+
+#create-party, #view-party{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 50%;
+	height: 50px;
+	margin-top: 10%;
+	border: none;
+	font-size: 30px;
+}

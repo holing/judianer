@@ -1,0 +1,94 @@
+body{
+	background-color: #FFFFF0;
+}
+
+.date-link{
+	display: block;
+	height: 40px;
+	width: 50px;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 0 0;
+	border: 3px solid #FFFFF0;
+}
+.date-nolink{
+	display: block;
+	height: 40px;
+	width: 50px;
+	text-decoration: none;
+	text-align: center;
+	padding: 8px 0 0;
+	border: 3px solid #FFFFF0;
+}
+
+div#position-table{
+	width: 40%;
+	height: 50%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+table#cal-table{
+	border-spacing: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+table#cal-table td{
+	text-align: center;
+	border-top: 1px solid #c8cacc;
+}
+
+#year-select, #month-select{
+	border: 2px dotted #c8cacc;
+	width: 100%;
+	height: 25px;
+	background-color: #ffffcc;
+}
+
+.week-title{
+	height: 30px;
+}
+
+.cal-number{
+	font-size: 18px;
+	color: black;
+}
+
+.td-selected{
+	border: 3px solid #fb0;
+}
+
+#table-head-year, #table-head-month{
+	padding-top: 10px;
+	font-size: 20px;
+	text-align: center;
+	position: relative;
+	width: 20%;
+	height: 40px;
+	float: left;
+}
+
+#user{
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	width: 30%;
+	height: 30px;
+	border: 2px dotted #c8cacc;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+}
+
+#done{
+	display: block;
+	border: none;
+	width: 30%;
+	height: 30px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
